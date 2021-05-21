@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "shadow_refinery:yeast"
+    },
+    {
+      "item": "shadow_refinery:flour"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "item": "shadow_refinery:yeast",
+    "count": 3
+  }
+}

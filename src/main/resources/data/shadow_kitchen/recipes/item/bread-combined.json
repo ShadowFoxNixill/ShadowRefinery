@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "shadow_refinery:bread_slice"
+    },
+    {
+      "item": "shadow_refinery:bread_slice"
+    },
+    {
+      "item": "shadow_refinery:bread_slice"
+    },
+    {
+      "item": "shadow_refinery:bread_slice"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bread",
+    "count": 1
+  }
+}

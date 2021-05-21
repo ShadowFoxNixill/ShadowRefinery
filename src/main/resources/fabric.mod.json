@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "shadow_refinery",
+  "version": "${version}",
+  "name": "Shadow Kitchen",
+  "description": "Delicious foodstuffs straight from the Shadow Den.",
+  "authors": [
+    "Nixill"
+  ],
+  "contact": {
+    "homepage": "https://github.com/ShadowFoxNixill/shadow-kitchen",
+    "sources": "https://github.com/ShadowFoxNixill/shadow-kitchen"
+  },
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.nixill.fabric.shadowkitchen.ShadowKitchenMod"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

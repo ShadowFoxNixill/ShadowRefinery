@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "shadow_refinery:dough"
+  },
+  "result": "minecraft:bread",
+  "experience": 0.1
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "tag": "shadow_refinery:crush_stones"
+    }
+  ],
+  "result": {
+    "item": "shadow_refinery:flour",
+    "count": 2
+  }
+}
