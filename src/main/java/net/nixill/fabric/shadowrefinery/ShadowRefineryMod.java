@@ -1,8 +1,8 @@
-package net.nixill.fabric.shadowkitchen;
+package net.nixill.fabric.shadowrefinery;
 
 import net.fabricmc.api.ModInitializer;
 
-public class ShadowKitchenMod implements ModInitializer {
+public class ShadowRefineryMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
@@ -10,6 +10,6 @@ public class ShadowKitchenMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		System.out.println("Hello Fabric world!");
-		ShadowKitchenItems.registerItems();
+		ShadowRefineryItems.registerItems();
 	}
 }

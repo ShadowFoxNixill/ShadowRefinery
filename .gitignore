@@ -31,3 +31,9 @@ bin/
 # fabric
 
 run/
+.fabric/
+.mixin.out/
+
+# other things
+crash-reports/
+logs/

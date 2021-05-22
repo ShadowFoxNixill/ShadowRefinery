@@ -16,7 +16,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.nixill.fabric.shadowkitchen.ShadowKitchenMod"
+      "net.nixill.fabric.shadowrefinery.ShadowRefineryMod"
     ]
   },
   "mixins": [

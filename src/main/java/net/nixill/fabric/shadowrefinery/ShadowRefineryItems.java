@@ -1,4 +1,4 @@
-package net.nixill.fabric.shadowkitchen;
+package net.nixill.fabric.shadowrefinery;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -10,7 +10,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class ShadowKitchenItems {
+public class ShadowRefineryItems {
   private static final Map<Identifier, Item> ITEMS = new LinkedHashMap<>();
 
   public static final Item FLOUR = add("flour", new Item(new FabricItemSettings().group(ItemGroup.FOOD)));

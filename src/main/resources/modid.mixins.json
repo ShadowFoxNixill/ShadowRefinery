@@ -1,11 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.nixill.fabric.shadowkitchen.mixin",
+  "package": "net.nixill.fabric.shadowrefinery.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [],
   "client": [
-    "ShadowKitchenMixin"
+    "ShadowRefineryMixin"
   ],
   "injectors": {
     "defaultRequire": 1
