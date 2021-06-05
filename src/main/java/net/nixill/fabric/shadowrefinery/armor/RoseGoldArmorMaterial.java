@@ -17,7 +17,7 @@ public class RoseGoldArmorMaterial implements ArmorMaterial {
 
 	@Override
 	public int getDurability(EquipmentSlot slot) {
-		return BASE_DURABILITY[slot.getEntitySlotId()] * 15; // iron
+		return BASE_DURABILITY[slot.getEntitySlotId()] * 21; // higher than iron (15), but lower than diamond (33)
 	}
 
 	@Override

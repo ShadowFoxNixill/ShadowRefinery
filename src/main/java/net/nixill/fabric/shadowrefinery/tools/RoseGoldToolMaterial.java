@@ -11,7 +11,7 @@ import net.nixill.fabric.shadowrefinery.ShadowRefineryItems;
 public class RoseGoldToolMaterial implements ToolMaterial {
 	@Override
 	public int getDurability() {
-		return 250; // iron
+		return 750; // far higher than iron (250), but lower than diamond (1561)
 	}
 
 	@Override
