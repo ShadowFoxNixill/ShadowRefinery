@@ -1,0 +1,16 @@
+{
+	"replace": false,
+	"values": [
+		"shadow_refinery:rose_gold_ingot",
+		"shadow_refinery:rose_gold_sword",
+		"shadow_refinery:rose_gold_shovel",
+		"shadow_refinery:rose_gold_pickaxe",
+		"shadow_refinery:rose_gold_axe",
+		"shadow_refinery:rose_gold_hoe",
+		"shadow_refinery:rose_gold_helmet",
+		"shadow_refinery:rose_gold_chestplate",
+		"shadow_refinery:rose_gold_leggings",
+		"shadow_refinery:rose_gold_boots",
+		"shadow_refinery:rose_gold_block"
+	]
+}

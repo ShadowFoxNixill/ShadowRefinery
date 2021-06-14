@@ -10,6 +10,7 @@ public class ShadowRefineryMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		System.out.println("Hello Fabric world!");
+		ShadowRefineryBlocks.registerBlocks();
 		ShadowRefineryItems.registerItems();
 	}
 }

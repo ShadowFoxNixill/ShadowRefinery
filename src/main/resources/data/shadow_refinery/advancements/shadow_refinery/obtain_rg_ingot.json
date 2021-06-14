@@ -21,7 +21,9 @@
 			"shadow_refinery:item/rose_gold_helmet",
 			"shadow_refinery:item/rose_gold_chestplate",
 			"shadow_refinery:item/rose_gold_leggings",
-			"shadow_refinery:item/rose_gold_boots"
+			"shadow_refinery:item/rose_gold_boots",
+			"shadow_refinery:item/rose_gold_nugget",
+			"shadow_refinery:item/rose_gold_block"
 		]
 	}
 }

@@ -13,6 +13,7 @@ import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.BlockItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.nixill.fabric.shadowrefinery.armor.*;
@@ -33,6 +34,8 @@ public class ShadowRefineryItems {
 	public static final Item ROSE_GOLD_CHESTPLATE = add("rose_gold_chestplate", new ArmorItem(ROSE_GOLD_ARMOR, EquipmentSlot.CHEST, new Item.Settings().group(ItemGroup.COMBAT)));
 	public static final Item ROSE_GOLD_LEGGINGS = add("rose_gold_leggings", new ArmorItem(ROSE_GOLD_ARMOR, EquipmentSlot.LEGS, new Item.Settings().group(ItemGroup.COMBAT)));
 	public static final Item ROSE_GOLD_BOOTS = add("rose_gold_boots", new ArmorItem(ROSE_GOLD_ARMOR, EquipmentSlot.FEET, new Item.Settings().group(ItemGroup.COMBAT)));
+	public static final Item ROSE_GOLD_NUGGET = add("rose_gold_nugget", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+	public static final Item ROSE_GOLD_BLOCK = add("rose_gold_block", new BlockItem(ShadowRefineryBlocks.ROSE_GOLD_BLOCK, new FabricItemSettings().group(ItemGroup.MATERIALS)));
 
 	private static <I extends Item> I add(String name, I item) {
 		ITEMS.put(new Identifier("shadow_refinery", name), item);

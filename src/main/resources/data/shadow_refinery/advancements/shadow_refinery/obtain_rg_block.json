@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"base": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["shadow_refinery:rose_gold_block"]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"shadow_refinery:item/rose_gold_ingot_from_block"
+		]
+	}
+}
